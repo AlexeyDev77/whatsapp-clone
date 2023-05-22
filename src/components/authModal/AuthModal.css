@@ -1,0 +1,32 @@
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ddf1e6;
+    width: 100%;
+}
+
+.modal-content {
+    height: auto;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.modal button {
+    margin: 5px;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
